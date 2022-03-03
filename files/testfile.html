@@ -1,8 +1,8 @@
 <script>
   if (document.referrer.match(/^https?:\/\/([^\/]+\.)?moodle311.ricoshae.com.au(\/|$)/i)) {
-    alert("Came from moodle311.ricoshae");
+
   } else {
-    alert("Came from ??");
+    window.location.replace("/noaccess.html");
   }
 </script>
 
